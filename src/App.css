@@ -1,0 +1,107 @@
+/* Background  */
+body {
+  background-color: #ffd3e6; /*culoare fundal*/
+  margin: 0; 
+  padding: 0; 
+}
+
+/* Calendar */
+.react-calendar {
+  width: 40%;
+  max-width: none;
+  margin: 20px auto; 
+  display: block; 
+}
+
+
+.react-calendar__tile {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.react-calendar_month-view_weekdays {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+.react-calendar_month-viewdays_day {
+  font-size: 14px;
+}
+
+.react-calendar__tile--active {
+  background-color: rgb(219, 52, 119);
+  color: #fff;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.react-calendar_navigation_label {
+  font-size: 18px;
+}
+h1 {
+  font-family: 'Brush Script MT', cursive;
+  text-align: center; /*aliniere text*/
+  margin-top: 50px; /* Spatiul intre calendar si titlu*/
+}
+button {
+  background-color:  rgb(208, 156, 177); /*culoare fundal*/
+  color: white; /*culoare text*/
+  padding: 10px 15px; /* vizibilitate buton*/
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a04583; 
+}
+/*tabel*/
+table {
+  width: 30%;
+  margin: 40px auto; 
+  display: block; 
+}
+
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #8b004e; 
+  color: #fff; 
+}
+
+td {
+  background-color: #c95989; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+*{
+  text-align: center;
+}
+
+.check-mark,
+.cancel-mark {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+
